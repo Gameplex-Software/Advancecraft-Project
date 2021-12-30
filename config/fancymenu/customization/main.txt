@@ -1,0 +1,326 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiMainMenu
+  randomgroup = 1
+  renderorder = background
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = resources/bg1.png
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=400322%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = -78
+}
+
+customization {
+  identifier = %id=400322%
+  action = vanilla_button_visibility_requirements
+}
+
+customization {
+  identifier = %id=400382%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = -27
+}
+
+customization {
+  identifier = %id=400382%
+  action = vanilla_button_visibility_requirements
+}
+
+customization {
+  identifier = %id=502382%
+  orientation = mid-centered
+  x = 2
+  action = movebutton
+  y = -27
+}
+
+customization {
+  identifier = %id=502382%
+  action = vanilla_button_visibility_requirements
+}
+
+customization {
+  identifier = %id=376382%
+  orientation = mid-centered
+  x = -9
+  action = movebutton
+  y = -1
+}
+
+customization {
+  identifier = %id=376382%
+  action = vanilla_button_visibility_requirements
+}
+
+customization {
+  identifier = %id=400298%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = -102
+}
+
+customization {
+  identifier = %id=400298%
+  action = vanilla_button_visibility_requirements
+}
+
+customization {
+  identifier = %id=400346%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = -54
+}
+
+customization {
+  identifier = %id=400346%
+  width = 200
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400346%
+  action = vanilla_button_visibility_requirements
+}
+
+customization {
+  identifier = %id=502346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=502346%
+  orientation = mid-centered
+  x = 2
+  action = movebutton
+  y = -54
+}
+
+customization {
+  identifier = %id=502346%
+  action = vanilla_button_visibility_requirements
+}
+
+customization {
+  path = resources/overlay-white.png
+  orientation = top-centered
+  x = -154
+  width = 309
+  actionid = 538eaea5-ae25-4f41-bdf9-bc708ef52c221632353922100
+  action = addtexture
+  y = 16
+  height = 35
+}
+
+customization {
+  path = resources/logo.png
+  orientation = top-centered
+  x = -152
+  width = 304
+  actionid = 1a077872-50b1-42d6-b2e6-548b0f664aea1632348803019
+  action = addtexture
+  y = 20
+  height = 26
+}
+
+customization {
+  path = resources/dev-bg.png
+  orientation = mid-right
+  x = -136
+  width = 137
+  actionid = d009673b-ff8d-445a-bc2a-e2d1ce6d559c1632350788428
+  action = addtexture
+  y = -150
+  height = 203
+}
+
+customization {
+  showname = false
+  orientation = mid-right
+  crouching = false
+  x = -111
+  slim = false
+  actionid = c3c4394f-8aa3-46ef-8caa-768ed772f8bb1632350807200
+  action = addentity
+  y = -48
+  scale = 30
+  playername = tristanpoland
+  parrot = false
+}
+
+customization {
+  orientation = mid-right
+  shadow = false
+  x = -93
+  actionid = 7dde47c7-d510-467a-95aa-8ec5f46469961632350835431
+  action = addtext
+  y = -102
+  scale = 1.0
+  alignment = left
+  value = Tristan Poland
+}
+
+customization {
+  path = resources/overlay.png
+  orientation = mid-centered
+  x = -137
+  width = 277
+  actionid = 1e8c9705-8916-4688-9132-f60ca3f25e791632351742924
+  action = addtexture
+  y = -112
+  height = 141
+}
+
+customization {
+  path = resources/gears1.gif
+  orientation = mid-right
+  x = -135
+  width = 68
+  actionid = 6bfea550-5468-42e8-9ecb-c61c7b04dd621632353758093
+  action = addtexture
+  y = 1
+  height = 48
+}
+
+customization {
+  path = resources/gears2.gif
+  orientation = mid-right
+  x = -56
+  width = 59
+  actionid = 23405073-9d8e-489d-8ac9-2eab45fac3221632353792352
+  action = addtexture
+  y = 4
+  height = 46
+}
+
+customization {
+  showname = false
+  orientation = bottom-centered
+  crouching = false
+  x = -108
+  slim = false
+  actionid = ee8cac12-675f-4058-bdc4-631ce7810bd41632949113782
+  action = addentity
+  y = -3
+  scale = 30
+  skinurl = https://www.minecraftskins.com/uploads/skins/2021/08/31/civil-caveman-18811234.png?v422
+  parrot = false
+}
+
+customization {
+  path = resources/0bd7af1b6a0696f.png
+  orientation = bottom-centered
+  x = -96
+  width = 53
+  actionid = b9406a10-abc6-4fb9-95eb-2d20c55e270e1632949286840
+  action = addtexture
+  y = -52
+  height = 42
+}
+
+customization {
+  showname = false
+  orientation = bottom-centered
+  crouching = false
+  x = -26
+  slim = false
+  actionid = f94c0924-ebfc-40de-bfcd-7da1073df9c11632949357100
+  action = addentity
+  y = -4
+  scale = 30
+  skinurl = https://www.minecraftskins.com/uploads/skins/2021/09/28/seth-shark-rp-19010893.png?v422
+  parrot = false
+}
+
+customization {
+  path = resources/0bd7af1b6a0696f.png
+  orientation = bottom-centered
+  x = -13
+  width = 53
+  actionid = 754ed733-e3bb-4b5c-a4db-2b29f09da63f1632949525842
+  action = addtexture
+  y = -53
+  height = 42
+}
+
+customization {
+  showname = false
+  orientation = bottom-centered
+  crouching = false
+  x = 58
+  slim = false
+  actionid = 09cc074d-3204-4011-918a-4ac8b11ddebe1632949634479
+  action = addentity
+  y = -4
+  scale = 30
+  skinurl = https://www.minecraftskins.com/uploads/skins/2021/09/29/wolf-boy----19018132.png?v422
+  parrot = false
+}
+
+customization {
+  showname = false
+  orientation = bottom-centered
+  crouching = false
+  x = 140
+  slim = false
+  actionid = 392c1979-7878-49bb-8014-b422a5bb2a821632949684698
+  action = addentity
+  y = -4
+  scale = 30
+  skinurl = https://www.minecraftskins.com/uploads/skins/2021/09/27/noob-astronaut-19008748.png?v422
+  parrot = false
+}
+
+customization {
+  path = resources/0bd7af1b6a0696f.png
+  orientation = bottom-centered
+  x = 67
+  width = 53
+  actionid = f662ba6d-d1bc-4130-bc52-c2a6bf442e7b1632949691832
+  action = addtexture
+  y = -53
+  height = 42
+}
+
+customization {
+  path = resources/furnace1.gif
+  orientation = bottom-left
+  x = 0
+  width = 51
+  actionid = 8dc7af3b-43a3-4067-b883-2c1f65fa55941632949982842
+  action = addtexture
+  y = -51
+  height = 51
+}
+
+customization {
+  path = resources/furnace2.gif
+  orientation = bottom-right
+  x = -51
+  width = 51
+  actionid = a88772b2-f6b2-46fb-8074-79de7ea3a7f61632950005877
+  action = addtexture
+  y = -51
+  height = 51
+}
+
